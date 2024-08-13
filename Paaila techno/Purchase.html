@@ -1,0 +1,582 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Purchase</title>
+  <style>
+    .table-container {
+      width: 85%;
+      height: 500px;
+      /* border: 1px solid black; */
+      display: table;
+    }
+
+    .table-row {
+      display: table-row;
+    }
+
+    .table-cell {
+      display: table-cell;
+
+      /* border: 1px solid black; */
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+    }
+
+    .static-row {
+      height: 50px;
+      /* Static height for the first two rows */
+    }
+
+    .dynamic-row {
+      height: auto;
+      /* Dynamic height for the third row */
+    }
+
+    .table-static-container {
+      display: flex;
+      /* width: 100vw; */
+    }
+
+    .Right-side-Table {
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      height: 500px;
+      border: 1px solid black;
+      /* border-left:1px solid black */
+      border-bottom: none;
+    
+    }
+
+
+    .Table {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        margin-left: 5mm;
+        margin-right: 5mm;
+        margin-top: 5mm;
+        page-break-after: always;
+      ">
+    <div style="text-align: center">
+      <a style="
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+            vertical-align: sub;
+          ">
+        <span style="vertical-align: top">त्रिभुवन विश्वविद्यालय</span>
+      </a>
+    </div>
+    <div style="text-align: center">
+      <p style="margin-top: 10px; font-size: 14px; margin-bottom: 5px">
+        बी. पी. कोइराला लायन्स नेत्र अध्ययन केन्द्र ( निकाय )
+      </p>
+      <p style="
+            margin-top: 0;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 600;
+          ">
+        स्टोर प्राप्ति तथा निरीक्षण नोट (General)
+      </p>
+    </div>
+
+    <div>
+      <div style="float: left; clear: left">
+        <span></span>
+      </div>
+      <div style="
+            float: right;
+            clear: right;
+            position: absolute;
+            right: 28px;
+            top: 12mm;
+            font-size: 14px;
+          ">
+        त्रि. वि.फा.नं. १९
+      </div>
+    </div>
+    <div>
+      <div style="float: left; clear: left">
+        <span></span>
+      </div>
+      <div style="
+            float: right;
+            clear: right;
+            position: absolute;
+            right: 28px;
+            top: 20mm;
+            font-size: 14px;
+          ">
+        <span>क्रम संख्या: MR0931</span>
+      </div>
+    </div>
+    <div>
+      <div style="float: left; clear: left">
+        <span style="position: absolute; left: 7%">KNS ENTERPRISES PVT. LTD</span>
+      </div>
+      <div style="float: right; clear: right">
+        <span></span>
+      </div>
+    </div>
+    <div style="display: inline-block;">
+      <div style="float: left; clear: left; padding-bottom: 5px">
+        <span>श्री.
+          <span>................................................................................................................</span>
+          बाट निम्नलिखित माल प्राप्त भयो ।</span>
+      </div>
+      
+    </div>
+    <div style="display: flex;justify-content: space-between;">
+      <div style="float: left; clear: left; padding-bottom: 5px">
+        <span> बिल नं: 1022</span>
+      </div>
+      <div style="float: right; clear: right; padding-bottom: 5px">
+        <span> मिति: 2024/07/14 (2081/03/30)</span>
+      </div>
+    </div>
+    <div class="Table">
+      
+      <div class="table-container">
+  
+  
+  
+        <div class="table-row static-row">
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+             
+              border-bottom: none;
+            width:5%">सि. नं.</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:30%">
+            बिवरण
+  
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+               width:10%"> अडर नं <br> मिति </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">एकाई</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%"> परिमाण</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">
+            एकाई दर
+  
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:15%">रकम<br>रुपैया /पैसा</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:10%">
+            स्टोर <br> लेजर पाना
+  
+          </div>
+  
+  
+        </div>
+        
+        <div class="table-row static-row">
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">1</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:30%">
+            CT LUCIA(ZESIS)
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+               width:10%">
+            940 2081/03/30
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">4</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">5</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">6</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:15%">रकम(रुपैया /पैसा)</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:10%">8</div>
+  
+  
+  
+        </div>
+        <div class="table-row static-row">
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">1</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:30%">
+            CT LUCIA(ZESIS)
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+               width:10%">
+            940 2081/03/30
+          </div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">4</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">5</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">6</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:15%">रकम(रुपैया /पैसा)</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:10%">8</div>
+  
+  
+  
+        </div>
+    
+  
+  
+  
+        <div class="table-row dynamic-row">
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">1</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:30%">44343444</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+               width:10%">3445534</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:5%">4</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">5</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:5%">6</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+            width:15%">रकम(रुपैया /पैसा)</div>
+          <div class="table-cell" style="
+              text-align: center;
+              padding: 0.2rem;
+              border-bottom: none;
+             width:10%">8</div>
+  
+        </div>
+        
+      </div>
+  
+  
+      <div class="Right-side-Table">
+        <div style="
+        text-align: center;
+        padding: 0.2rem;
+        height: 43px;
+        border-bottom: none;
+        ">Remarks</div>
+        <div style="
+  text-align: center;
+  padding: 0.2rem;
+  border-top: 1px solid #000;
+  border-right: 1px so black;
+   
+  border-bottom: none;
+  ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam mollitia aspernatur porro voluptatum repudiandae fugit inventore dignissimos minima ut molestias explicabo, nisi ullam expedita ipsa id possimus amet cum?
+        </div>
+  
+      </div>
+    </div>
+    <table id="ReportParticularTable" style="
+      width: 100%;
+      border-top: 1px solid #000;
+      border-collapse: collapse;
+      border-spacing: 10px;
+      font-size: 11.5px;
+    ">
+      <body>
+     
+        <!-- </div> -->
+      
+      </body>
+      <tfoot>
+        <tr>
+          <td style="
+            text-align: right;
+            padding: 0.2rem 0.4rem;
+            border-top: 1px solid #000;
+          " colspan="6">
+            रकम
+          </td>
+          <td style="
+            text-align: right;
+            padding: 0.2rem 0.4rem;
+            border-top: 1px solid #000;
+          " colspan="2">
+            40893.82
+          </td>
+          <td style="
+            text-align: left;
+            padding: 0.2rem 0.4rem;
+            border-top: 1px solid #000;
+          "></td>
+          <td style="
+            text-align: left;
+            padding: 0.2rem 0.4rem;
+            border-top: 1px solid #000;
+          "></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="6">
+            छुट रकम
+          </td>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="2">
+            0.00
+          </td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="6">
+            भ्याट रकम
+          </td>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="2">
+            3106.20
+          </td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="6">
+            अन्य रकम
+          </td>
+          <td style="text-align: right; padding: 0.2rem 0.4rem" colspan="2">
+            0
+          </td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+          <td style="text-align: left; padding: 0.2rem 0.4rem"></td>
+        </tr>
+        <tr>
+          <td style="
+            text-align: right;
+            padding: 0.2rem 0.4rem;
+            border-bottom: 1px solid #000;
+          " colspan="6">
+            जम्मा रकम
+          </td>
+          <td style="
+            text-align: right;
+            padding: 0.2rem 0.4rem;
+            border-bottom: 1px solid #000;
+          " colspan="2">
+            44000.02
+          </td>
+          <td style="
+            text-align: left;
+            padding: 0.2rem 0.4rem;
+            border-bottom: 1px solid #000;
+          "></td>
+          <td style="
+            text-align: left;
+            padding: 0.2rem 0.4rem;
+            border-bottom: 1px solid #000;
+          "></td>
+        </tr>
+      </tfoot>
+    </table>
+    <table style="margin-top: 50px; font-size: 12px; width: 100%">
+      <div>
+        <div style="
+              float: left;
+              clear: left;
+              text-align: center;
+              padding-top: 5mm;
+            ">
+          <p style="margin: 0; line-height: 0.5"></p>
+          <p style="margin: 0">
+            स्टोरमा बुझिलिने ...........................................
+          </p>
+        </div>
+        <div style="
+              float: right;
+              clear: right;
+              text-align: left;
+              padding-top: 5mm;
+              margin-left: auto;
+            ">
+          <p style="margin: 0 15mm 0 0">निरीक्षण गरी स्वीकृत दिने</p>
+        </div>
+      </div>
+      <div>
+        <div style="
+              float: left;
+              clear: left;
+              text-align: center;
+              padding-top: 1mm;
+            ">
+          <p style="margin: 0; line-height: 0.5"></p>
+          <p style="margin: 0">
+            मिति ...........................................................
+          </p>
+        </div>
+        <div style="
+              float: right;
+              clear: right;
+              text-align: center;
+              padding-top: 1mm;
+              margin-left: auto;
+            ">
+          <p style="margin: 0">
+            मिति ...........................................
+          </p>
+        </div>
+      </div>
+    </table>
+    <div style="display: flex; margin-bottom: 5px; margin-top: 10px">
+      <div style="flex: 0 0 70%; max-width: 70%">
+        <div style="
+              display: flex;
+              flex-wrap: wrap;
+              max-width: 100%;
+              flex: 0 0 100%;
+            ">
+          <span>User: {{InsertUser}} </span>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; margin-bottom: 5px">
+      <div style="flex: 0 0 70%; max-width: 70%">
+        <div style="
+              display: flex;
+              flex-wrap: wrap;
+              max-width: 100%;
+              flex: 0 0 100%;
+            ">
+          <span> Print Date/Time: 7/19/2024 10:00AM </span>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; margin-bottom: 5px">
+      <div style="flex: 0 0 100%; max-width: 100%">
+        <div style="
+               text-align: center;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+              bottom: 20px;
+              position: absolute
+              
+            ">
+          <span> Page No.: 1 </span>
+        </div>
+      </div>
+    </div>
+    <!-- <div style="display: flex; margin-bottom: 5px">
+        <div style="flex: 0 0 100%; max-width: 100%">
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              max-width: 100%;
+              flex: 0 0 100%;
+              text-align: center;
+              justify-content: center;
+              
+            "
+          >
+            <span> Page No.: 1 </span>
+          </div>
+        </div>
+      </div> -->
+  </div>
+</body>
+
+</html>

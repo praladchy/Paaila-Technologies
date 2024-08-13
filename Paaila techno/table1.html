@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Table</title>
+  <style>
+    .table-container {
+      width: 85%;
+      height: 500px;
+      /* border: 1px solid black; */
+      display: table;
+      border-bottom: 1px solid black;
+    }
+
+    .table-row {
+      display: table-row;
+    }
+
+    .table-cell {
+      display: table-cell;
+
+      /* border: 1px solid black; */
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+      border-bottom: 10x solid black;
+    }
+
+    .static-row {
+      height: 50px;
+      /* Static height for the first two rows */
+    }
+
+    .dynamic-row {
+      height: auto;
+      /* Dynamic height for the third row */
+    }
+
+    .table-static-container {
+      display: flex;
+      /* width: 100vw; */
+    }
+
+    .Right-side-Table {
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      height: 500px;
+      border: 1px solid black;
+      /* border-left:1px solid black */
+      border-bottom: none;
+
+    }
+
+
+    .Table {
+      display: flex;
+    }
+  </style>
+  </style>
+</head>
+
+<body>
+  <div class="Table">
+
+    <div class="table-container">
+
+
+
+      <div class="table-row static-row">
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="5%">सि. नं.</div>
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="30%">
+          मालसामानको विवरण
+
+
+        </div>
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="10%"> एकाई</div>
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="5%"> न्युनतम</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          " width="5%"> स्टोर</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          " width="5%"> आवश्यक</div>
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="5%"> एकाई</div>
+
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="15%">रकम<br>रुपैया /पैसा</div>
+        <div class="table-cell" style="
+        text-align: center;
+        padding: 0.2rem;
+        border-bottom: none;
+      " width="10%">
+          बजेट
+
+        </div>
+
+
+      </div>
+
+      <div class="table-row static-row">
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">1</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:30%">
+          CT LUCIA(ZESIS)
+        </div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+             width:10%">
+          940 2081/03/30
+        </div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">4</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">5</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">6</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:15%">656621</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:10%">8</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+       
+           width:10%">8</div>
+
+
+
+
+
+
+      </div>
+      <div class="table-row static-row">
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">1</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:30%">
+          CT LUCIA(ZESIS)
+        </div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+             width:10%">
+
+        </div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">4</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">5</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">6</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:15%">446544655</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+           width:10%">8</div>
+
+
+        <div class="table-cell" style="
+text-align: center;
+padding: 0.2rem;
+border-bottom: none;
+width:10%">8</div>
+
+
+
+
+
+      </div>
+
+
+
+
+      <div class="table-row dynamic-row">
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">1</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:30%">44343444</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+             width:10%">3445534</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:5%">4</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">5</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:5%">6</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+          width:15%">रकम(रुपैया /पैसा)</div>
+        <div class="table-cell" style="
+            text-align: center;
+            padding: 0.2rem;
+            border-bottom: none;
+           width:10%">8</div>
+
+        <div class="table-cell" style="
+text-align: center;
+padding: 0.2rem;
+border-bottom: none;
+width:10%">8</div>
+
+
+
+      </div>
+
+    </div>
+
+
+    <div class="Right-side-Table">
+      <div style="
+      text-align: center;
+      padding: 0.2rem;
+      height: 43px;
+      border-bottom: none;
+      ">Remarks</div>
+      <div style="
+text-align: center;
+padding: 0.2rem;
+border-top: 1px solid #000;
+border-right: 1px so black;
+ 
+border-bottom: none;
+">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam mollitia aspernatur porro voluptatum
+        repudiandae fugit inventore dignissimos minima ut molestias explicabo, nisi ullam expedita ipsa id possimus amet
+        cum?
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

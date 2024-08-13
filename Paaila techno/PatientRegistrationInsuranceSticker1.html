@@ -1,0 +1,70 @@
+﻿<div style="width:100mm;height:50mm;font-weight:400; font-family:sans-serif; margin:0px !important; padding-left: 7mm">
+    <table cellspacing="0" cellpadding="0" style="font-size:14px;width:100%;line-height: 17px;">
+        <tr>
+            <td colspan="2"><span style="font-weight:bold;text-transform: uppercase;">Nepal Health Insurance</span></td>
+            <td>
+                <img src="{{MrnoBarcodeImage}}" alt="" style="margin-right: 10px;height:18px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Reg. Date: <span style="font-weight:bold">
+                    {{RegistrationDateNp}}({{RegistrationDate}})
+                </span></td>
+
+
+        <tr>
+            <td>Time: <span style="font-weight:bold">
+                    {{RegistrationTimeOnly}}
+                    
+                </span></td>
+
+            <td style="font-size: 16px;">NSHI: <span style="font-weight:bold;">
+                    {{NISHI}}
+                    
+                </span></td>
+        </tr>
+
+
+        <tr>
+            <td>MRNO: <span style="font-weight:bold;font-size:23px">
+                    {{MedicalRecordNumber}}
+                </span></td>
+            <td style="font-size: 16px;">Claim Code: <span style="font-weight:bold; ">
+                    {{ClaimCode}}
+                </span></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Name: <span style="font-weight: bold; font-size: 19px">
+                    {{PatientFullName}}
+                </span>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Age/Sex: <span style="font-weight:bold">{{Age}}/{{Gender}}</span></td>
+            <td>Fee (Rs): <span style="font-weight:bold">{{Fee}}</span></td>
+
+        </tr>
+
+
+        <tr>
+
+
+            <td colspan="2">Address: <span style="font-weight:bold">
+                    {{PatientAddress}}
+                </span></td>
+
+        </tr>
+
+
+        <tr>
+            <td colspan="2">Mobile No: <span style="font-weight:bold">{{MobileNumber}}</span></td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2"> Payment Mode: <span style="font-weight:bold">{{PaymentMethodsWithWords}}</span></td>
+        </tr>
+    </table>
+</div>
